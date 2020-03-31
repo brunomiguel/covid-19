@@ -1,5 +1,6 @@
 baseURL = "https://brunomiguel.github.com/"
 title = "COVID-19"
+description = "Compêndio de informação e links sobre a COVID-19"
 enableRobotsTXT = true
 theme = "compose"
 enableGitInfo = false
