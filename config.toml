@@ -1,0 +1,56 @@
+baseURL = "https://brunomiguel.github.com/"
+title = "COVID-19"
+enableRobotsTXT = true
+theme = "compose"
+enableGitInfo = false
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 2
+
+# Everything below this are Site Params
+
+[params]
+  author = "Bruno Miguel"
+  searchPlaceholder = "Search the docs ..."
+  repo = "https://github.com/onweru/compose"
+
+  time_format_blog = "Monday, 02 de January de 2006"
+  time_format_default = "Monday, 02 de January de 2006"
+  [params.logo]
+    lightMode = "logo.png"
+    darkMode = "logo.png"
+
+[[menu.main]]
+    url = ""
+    name = "Início"
+    weight = 1
+
+[[menu.main]]
+    url = "/links/"
+    name = "Links"
+    weight = 3
+    
+[[menu.main]]
+    url = "/dashboards/"
+    name = "Dashboards"
+    weight = 2
+
+[[menu.main]]
+    url = "/about/"
+    name = "Sobre"
+    weight = 4
+
